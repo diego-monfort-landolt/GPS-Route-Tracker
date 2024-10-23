@@ -8,7 +8,6 @@ body {
   margin: 0;
   position: relative;
 }
-
 #map {
   width: calc(100% - 40px); /* Add margin around the map */
   height: calc(100vh - 140px); /* Adjust height to leave space for buttons */
@@ -26,7 +25,6 @@ button {
   position: relative;
   z-index: 1000; /* Ensure buttons are always on top */
 }
-
 #buttonContainer {
   position: absolute;
   top: 10px;
